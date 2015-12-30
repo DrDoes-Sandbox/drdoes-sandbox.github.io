@@ -1,0 +1,82 @@
+        #board {
+            float:left;
+        }
+        #unit_layer {
+            float:left;
+            position:absolute;
+        }
+        .tile {
+            background-color: red;
+            width: 32px;
+            height: 32px;
+            float:left;
+            background-repeat:no-repeat;
+            background-size:cover;
+        }
+        .unit {
+            width: 32px;
+            height: 32px;
+            float:left;
+            background-repeat:no-repeat;
+            background-size:cover;
+        }
+        /*Field Images*/
+       .grass {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/grass.png");
+        }
+       .grass_mntn {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/grass_with_mountain_shadow.png");
+        }       
+       .marsh {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/marsh.png");
+        }
+        .mntn_small {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/mountain_small.png");
+        }
+        .road_h {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/road_horizontal.png");
+        }
+        .tree {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/tree.png");
+        }
+        .water {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/water.png");
+        }
+        .water_bottom {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/water_bottom.png");
+        }
+        .water_bottom_left {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/water_bottom_left.png");
+        }
+        .water_left {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/water_left.png");
+        }
+        .water_top_left {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/water_top_left.png");
+        }
+        .water_top {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/water_top.png");
+        }
+        .water_top_right {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/water_top_right.png");
+        }
+        .water_right {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/water_right.png");
+        }
+        .water_bottom_right {
+            background-image: url("https://s3-us-west-2.amazonaws.com/advance-war-clone/water_bottom_right.png");
+        }
+        /*Military Unit Images*/
+        .mech_left {
+            background-image: url("https://github.com/DrDoes-Sandbox/Advanced-War-Clone/blob/master/sprites/mech_left.png?raw=true");
+        }
+        .soldier_left {
+            background-image: url("https://github.com/DrDoes-Sandbox/Advanced-War-Clone/blob/master/sprites/soldier_left.png?raw=true");
+        }
+        .tank_left {
+            background-image: url("https://github.com/DrDoes-Sandbox/Advanced-War-Clone/blob/master/sprites/tank_left.png?raw=true");
+        }
+        .transport_heli_left {
+            background-image: url("https://github.com/DrDoes-Sandbox/Advanced-War-Clone/blob/master/sprites/transport_helicopter_left.png?raw=true");
+        }
+        
